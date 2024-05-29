@@ -1,0 +1,9 @@
+{
+  "code": "ENV04GIT",
+  "environmenttype": 5,
+  "roles": [],
+  "name": "My Git Env 04",
+  "infrastructureItems": [
+    1
+  ]
+}

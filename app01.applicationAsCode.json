@@ -1,0 +1,36 @@
+{
+  "template": 0,
+  "components": [
+    {
+      "code": "MainCmp",
+      "strategies": [
+        {
+          "strategy_subentity": "strGitExport",
+          "code": "GITIS",
+          "strategy_text": "GIT Import Strategy",
+          "cleanafter": 0,
+          "postprocessant": "*NO",
+          "localroot": "*AUTO",
+          "comment": "Git Import Strategy",
+          "type": "importStrategy",
+          "strategy": 6,
+          "substrategy": {
+            "tag": "2023.7.15",
+            "type": "strGitExport",
+            "url": "https://github.com/ARCAD-Software/AFS/",
+            "properties": []
+          },
+          "cleanbefore": 0
+        }
+      ],
+      "name": "Main component"
+    }
+  ],
+  "code": "MyGitApp01",
+  "importfile": "",
+  "roles": [],
+  "text": "My Git Application 01",
+  "packagetype": 0,
+  "usebranching": false,
+  "properties": []
+}
